@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.daniel.dlsist.dto.GameDTO;
 import com.daniel.dlsist.dto.GameMinDTO;
 import com.daniel.dlsist.entities.Game;
+import com.daniel.dlsist.projections.GameMinProjection;
 import com.daniel.dlsist.repositories.GameRepository;
 
 @Service
@@ -27,7 +28,12 @@ public class GameService {
 		List<Game> result= gameRepository.findAll();
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
 		
+	}
+
+	@Transactional(readOnly = true)
+	public List<GameMinDTO> findByList(Long listId) {
+		List<GameMinProjection> result = gameRepository.searchByList(listId);
+		return result.stream().map(x -> new GameMinDTO(x)).toList();
 		
 	}
-	
 }
