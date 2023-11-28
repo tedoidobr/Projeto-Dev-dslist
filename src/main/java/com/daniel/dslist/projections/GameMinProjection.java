@@ -1,4 +1,4 @@
-package com.daniel.dlsist.projections;
+package com.daniel.dslist.projections;
 
 public interface GameMinProjection {
 

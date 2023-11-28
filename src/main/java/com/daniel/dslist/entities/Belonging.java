@@ -1,4 +1,4 @@
-package com.daniel.dlsist.entities;
+package com.daniel.dslist.entities;
 
 import java.util.Objects;
 

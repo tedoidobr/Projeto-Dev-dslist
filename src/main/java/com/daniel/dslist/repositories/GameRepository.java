@@ -1,12 +1,12 @@
-package com.daniel.dlsist.repositories;
+package com.daniel.dslist.repositories;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.daniel.dlsist.entities.Game;
-import com.daniel.dlsist.projections.GameMinProjection;
+import com.daniel.dslist.entities.Game;
+import com.daniel.dslist.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long>{
 	

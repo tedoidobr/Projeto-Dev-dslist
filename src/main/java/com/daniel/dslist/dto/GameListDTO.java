@@ -1,6 +1,6 @@
-package com.daniel.dlsist.dto;
+package com.daniel.dslist.dto;
 
-import com.daniel.dlsist.entities.GameList;
+import com.daniel.dslist.entities.GameList;
 
 public class GameListDTO {
 

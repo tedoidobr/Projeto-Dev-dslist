@@ -1,8 +1,8 @@
-package com.daniel.dlsist.dto;
+package com.daniel.dslist.dto;
 
 import org.springframework.beans.BeanUtils;
 
-import com.daniel.dlsist.entities.Game;
+import com.daniel.dslist.entities.Game;
 
 public class GameDTO {
 

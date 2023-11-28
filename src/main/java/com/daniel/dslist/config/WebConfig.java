@@ -1,4 +1,4 @@
-package com.daniel.dlsist.config;
+package com.daniel.dslist.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

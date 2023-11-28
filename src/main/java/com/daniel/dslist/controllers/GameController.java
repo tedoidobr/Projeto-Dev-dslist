@@ -1,4 +1,4 @@
-package com.daniel.dlsist.controllers;
+package com.daniel.dslist.controllers;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.daniel.dlsist.dto.GameDTO;
-import com.daniel.dlsist.dto.GameMinDTO;
-import com.daniel.dlsist.services.GameService;
+import com.daniel.dslist.dto.GameDTO;
+import com.daniel.dslist.dto.GameMinDTO;
+import com.daniel.dslist.services.GameService;
 
 @RestController
 @RequestMapping(value = "/games")

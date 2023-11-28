@@ -1,13 +1,13 @@
-package com.daniel.dlsist;
+package com.daniel.dslist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DlsistApplication {
+public class DslistApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DlsistApplication.class, args);
+		SpringApplication.run(DslistApplication.class, args);
 	}
 
 }

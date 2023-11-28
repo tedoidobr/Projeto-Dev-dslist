@@ -1,4 +1,4 @@
-package com.daniel.dlsist.controllers;
+package com.daniel.dslist.controllers;
 
 import java.util.List;
 
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.daniel.dlsist.dto.GameListDTO;
-import com.daniel.dlsist.dto.GameMinDTO;
-import com.daniel.dlsist.dto.ReplacementDTO;
-import com.daniel.dlsist.services.GameListService;
-import com.daniel.dlsist.services.GameService;
+import com.daniel.dslist.dto.GameListDTO;
+import com.daniel.dslist.dto.GameMinDTO;
+import com.daniel.dslist.dto.ReplacementDTO;
+import com.daniel.dslist.services.GameListService;
+import com.daniel.dslist.services.GameService;
 
 @RestController
 @RequestMapping(value = "/lists")

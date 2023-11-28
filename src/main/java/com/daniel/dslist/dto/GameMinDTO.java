@@ -1,7 +1,7 @@
-package com.daniel.dlsist.dto;
+package com.daniel.dslist.dto;
 
-import com.daniel.dlsist.entities.Game;
-import com.daniel.dlsist.projections.GameMinProjection;
+import com.daniel.dslist.entities.Game;
+import com.daniel.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {
 

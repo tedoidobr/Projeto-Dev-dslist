@@ -1,4 +1,4 @@
-package com.daniel.dlsist.dto;
+package com.daniel.dslist.dto;
 
 public class ReplacementDTO {
 
