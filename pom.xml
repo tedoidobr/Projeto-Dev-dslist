@@ -10,8 +10,8 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.daniel</groupId>
-	<artifactId>dlsist</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>dslist</artifactId>
+	<version>1.0.0</version>
 	<name>dslist</name>
 	<description>Intensivão Java DevS</description>
 	<properties>
